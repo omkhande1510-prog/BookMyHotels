@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="🏨"
+        android:textSize="32sp"
+        android:background="#E3F2FD"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Confirm Room Selection"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#0D47A1"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Please review the selected room"
+        android:textSize="14sp"
+        android:textColor="#6B7280"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/txtDialogRoomNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Room 101"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:textColor="#1F2937"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/txtDialogRoomType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Single Room"
+        android:textSize="17sp"
+        android:textColor="#6B7280"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="18dp"
+        android:background="#E8F5E9">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NIGHTLY PRICE"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"/>
+
+        <TextView
+            android:id="@+id/txtDialogPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="₹1500 / night"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Hotel building -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,42 L54,28 L78,42 L78,82 L30,82 Z" />
+
+    <!-- Roof -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M25,43 L54,23 L83,43 L78,48 L54,31 L30,48 Z" />
+
+    <!-- Door -->
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M48,62 L60,62 L60,82 L48,82 Z" />
+
+    <!-- Windows -->
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M37,50 L44,50 L44,58 L37,58 Z" />
+
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M64,50 L71,50 L71,58 L64,58 Z" />
+
+    <!-- Star -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M54,12 L57,19 L65,19 L59,24 L61,31 L54,27 L47,31 L49,24 L43,19 L51,19 Z" />
+
+</vector>
